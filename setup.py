@@ -13,11 +13,11 @@ setup(
     description='Easily plug a slideshow into your mezzanine website on all pages.',
     long_description=open('README.rst').read(),
 
-    author='Isaac Bythewood',
-    author_email='isaac@bythewood.me',
+    author='James Pells',
+    author_email='jimmy@jamespells.com',
 
-    url='http://github.com/overshard/mezzanine-slides',
-    download_url='http://github.com/overshard/mezzanine-slides/downloads',
+    url='http://github.com/jpells/mezzanine-slides',
+    download_url='http://github.com/jpells/mezzanine-slides/downloads',
 
     include_package_data=True,
 

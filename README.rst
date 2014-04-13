@@ -44,7 +44,7 @@ Now you'll need to include the CSS and JS in your compress areas of your
   
   {% compress js %}
   ...
-  <script src="{% static "js/responsiveslides.min.js" %}"></script>
+  <script src="{% static "js/responsiveslides.js" %}"></script>
   <script src="{% static "js/responsiveslides-init.js" %}"></script>
   {% endcompress %}
 

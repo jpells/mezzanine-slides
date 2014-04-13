@@ -30,6 +30,12 @@ individually in a way that best suits it.
 
 class SlideInline(TabularDynamicInlineAdmin):
     model = Slide
+    """
+    grappelli-safe does not support related_lookup_fields as grappelli does yet.
+    related_lookup_fields = {
+        'generic': [['content_type', 'object_id'],],
+    }
+    """
 
 
 class RichTextPageAdmin(PageAdmin):
