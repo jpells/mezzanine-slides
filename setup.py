@@ -17,7 +17,6 @@ setup(
     author_email='jimmy@jamespells.com',
 
     url='http://github.com/jpells/mezzanine-slides',
-    download_url='http://github.com/jpells/mezzanine-slides/downloads',
 
     include_package_data=True,
 
